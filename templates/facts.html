@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alle Europa Fakten</title>
+</head>
+
+<body>
+
+<h1>Alle Europa Fakten</h1>
+
+<ul>
+{% for f in facts %}
+<li>{{ f }}</li>
+{% endfor %}
+</ul>
+
+<a href="/">Zufälliger Fakt</a>
+
+</body>
+</html>
